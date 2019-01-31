@@ -8,9 +8,17 @@ canvas {
 }
 
 body {
-  background-color: #ED2939;
+  background-color: #CD5C5C;
 }
 
 #null {
   opacity: 0;
+}
+
+a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
 }
