@@ -1,0 +1,61 @@
+#espresso {
+  background-color: #593C1F;
+  float: left;
+  display: block;
+  width: 33.333%;
+  height: 1000px;
+  color: white;
+  text-align: center;
+  border: solid;
+  border-color: #593C1F;
+}
+
+#steamed-milk {
+  background-color: #fffee4;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 33.3333%;
+  height: 1000px;
+  text-align: center;
+  border: solid;
+  border-color: #fffee4;
+}
+
+#foamed-milk {
+  background-color: #fffdd0;
+  float: right;
+  display: block;
+  width: 33.3333%;
+  height: 1000px;
+  text-align: center;
+  border: solid;
+  border-color: #fffdd0;
+}
+
+h1 {
+  font-family: 'Major Mono Display', monospace;
+
+}
+
+#description {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+  background-color: white;
+  border-style: double;
+  border-width: 10px;
+  border-color: black;
+  padding-left: 30px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+body {
+  margin: 10px;
+}
