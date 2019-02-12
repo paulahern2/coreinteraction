@@ -1,14 +1,14 @@
-canvas {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 800px;
+
+
+html,body {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
-  background-color: #67001a;
+  background-color: #5a1e00;
 }
 
 #null {
@@ -24,11 +24,11 @@ a {
   font-weight: normal;
 }
 
-#ruth-serious {
+#ruth1 {
   text-decoration: none;
-  color: white;
-  font-size: 36px;
-  font-family: 'Roboto Mono', monospace;
+  color: #faf0be;
+  font-size: 55px;
+  font-family: 'Montserrat', sans-serif;
   padding-left: 0;
   padding-right: 0;
   margin-left: 100px;
@@ -36,6 +36,8 @@ a {
   display: block;
   width: 800px;
   margin-top: 250px;
+  font-weight: 600;
+  margin-bottom: 350px;
 }
 
 #ruth-serious2 {
@@ -65,30 +67,71 @@ a {
   margin-bottom: 200px;
 }
 
-#snorri-serious {
+#snorri1 {
   text-decoration: none;
-  color: white;
-  font-size: 36px;
-  font-family: 'Exo 2', sans-serif;
+  color: #faf0be;
+  font-size: 65px;
+  font-family: 'Montserrat Alternates', sans-serif;
   padding-left: 0;
   padding-right: 0;
   margin-left: auto;
   margin-right: 100px;
   display: block;
   width: 800px;
+  margin-top: 250px;
+  margin-bottom: 350px;
+  font-weight: 300;
 }
 
-#narrator-sound {
+#narrator1 {
   text-decoration: none;
   color: white;
-  font-size: 36px;
-  font-family: 'Spectral SC', serif;
+  font-size: 80px;
+  font-family: 'Major Mono Display', monospace;
   padding-left: 0;
   padding-right: 0;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 800px;
-  margin-bottom: 250px;
+  margin-bottom: 450px;
+  margin-top: 250px;
   text-align: center;
+}
+
+#second-act {
+  background-color: #604c3e;
+  height: 10000%;
+  width: 100%;
+  padding: 0px;
+  width: 200%;
+}
+
+#snorri2 {
+    text-decoration: none;
+    color: #faf0be;
+    font-size: 65px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 100px;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+    margin-top: 250px;
+    margin-bottom: 350px;
+    font-weight: 300;
+}
+
+#narrator2 {
+  text-decoration: none;
+  color: white;
+  font-size: 80px;
+  font-family: 'Major Mono Display', monospace;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 450px;
+  margin-top: 250px;
 }
