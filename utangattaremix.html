@@ -4,11 +4,20 @@
     <title>Utangatta</title>
     <link href="utangatta.css"
     rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
   </head>
   <body>
-    <div id="narrator-title" class="narrator">
-    <h1>Utangatta</h1>
-  </div>
+  
+        <script>
+      function play(){
+           var audio = document.getElementById("audio");
+           audio.play();
+                     }
+       </script>
+    <div id="button">
+    <input type="button" value="PLAY"  onclick="play()">
+    <audio id="audio" src="1.mp3" ></audio>
+   </div>
     <script src = "utangatta.js"></script>
   </body>
 </html>
