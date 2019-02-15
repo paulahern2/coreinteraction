@@ -1,0 +1,45 @@
+#recipe {
+  padding-left: 0;
+  decoration: none;
+  color: purple;
+  padding-right: 0;
+  margin-left: 400px;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+  font-family: 'Cairo', sans-serif;
+  font-size: 60px;
+  
+
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  width: 900px;
+  color: black;
+}
+
+a {
+  font-size: 150px;
+  text-decoration: none;
+  font-family: 'Cairo', sans-serif;
+  color: purple;
+  margin-left: 2px;
+  margin-right: auto;
+  display: block;
+  margin-top: 100px;
+}
+
+p {
+  font-size: 40px;
+}
+
+html,body {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}

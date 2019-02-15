@@ -331,3 +331,12 @@ a {
   display: block;
   font-weight: 900;
 }
+
+#content: hover + #hoverbar {
+    visibility:visible;
+}
+with
+
+#content: hover > #hoverbar {
+    visibility:visible;
+}
