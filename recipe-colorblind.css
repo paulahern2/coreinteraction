@@ -1,0 +1,56 @@
+#recipe {
+  padding-left: 0;
+  decoration: none;
+  color: #f81032;
+  padding-right: 0;
+  margin-left: 400px;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+  font-family: 'Cairo', sans-serif;
+  font-size: 60px;
+
+
+}
+
+h2 {
+  color: #f81032;
+}
+
+p {
+  width: 900px;
+  color: #f81032;
+}
+
+#mahjoun a {
+  font-size: 150px;
+  text-decoration: none;
+  font-family: 'Cairo', sans-serif;
+  color: #f81032;
+  margin-left: 2px;
+  margin-right: auto;
+  display: block;
+}
+
+p {
+  font-size: 40px;
+}
+
+html,body {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #8e7f43;
+}
+
+#next a {
+  font-size: 36px;
+  text-decoration: none;
+  font-family: 'Cairo', sans-serif;
+  color: #f81032;
+  margin-left: 400px;
+  margin-right: auto;
+  display: block;
+
+}
