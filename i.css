@@ -1,0 +1,37 @@
+.uppercase-i {
+  width:400px;
+  height:500px;
+  border: 1px solid black;
+  float: left;
+}
+
+#upper-i {
+  width: 400px;
+   height: 100px;
+   background: linear-gradient(180deg, goldenrod, red);
+   position: absolute;
+}
+
+#lower-i {
+  width: 400px;
+   height: 100px;
+   background: linear-gradient(180deg, green, goldenrod);
+   margin-top: 400px;
+   position: absolute;
+}
+
+#middle-i {
+  width: 150px;
+  height: 500px;
+  background: linear-gradient(45deg, green, red);
+  margin-left: 125px;
+  position: absolute;
+}
+#next {
+  float: right;
+  font-size: 40px;
+  text-decoration: none;
+  color: purple;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
