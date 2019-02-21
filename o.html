@@ -1,0 +1,88 @@
+<!doctype html>
+<html land="en" dir="ltr">
+  <head>
+    <title>Type Collection Exercise 4</title>
+    <link href="o.css"
+    rel="stylesheet">
+  </head>
+      <body>
+        <div class="uppercase-o">
+          <div id="middle-o">
+          </div>
+          <div id="upper-o">
+          </div>
+          </div>
+
+        <pre>
+          <code>
+            .uppercase-o {
+              width:400px;
+              height:500px;
+              border: 1px solid black;
+              float: left;
+            }
+
+            #upper-o {
+              width: 390px;
+              height: 390px;
+              background: radial-gradient(circle at 100px 100px, black, #000);
+              border-radius: 50%;
+              margin: 0;
+              position: absolute;
+              z-index: 1;
+
+            }
+
+            #upper-o::before {
+              content: "";
+              position: absolute;
+              top: 1%;
+              left: 5%;
+              width: 90%;
+              height: 90%;
+              border-radius: 50%;
+              background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+              filter: blur(5px);
+              z-index: 3;
+            }
+
+            #middle-o {
+              width: 250px;
+              height: 250px;
+              background: transparent;
+              border-radius: 50%;
+              margin: 0;
+              margin-top: 75px;
+              margin-left: 70px;
+              position: absolute;
+              z-index: 2;
+
+            }
+
+            #middle-o::before {
+              content: "";
+              position: absolute;
+              top: 1%;
+              left: 5%;
+              width: 90%;
+              height: 90%;
+              border-radius: 50%;
+              background: radial-gradient(circle at 50% 0px, blue, white 58%);
+              z-index: 2;
+            }
+
+            #next {
+              float: right;
+              font-size: 40px;
+              margin-top: 200px;
+              text-decoration: none;
+              color: purple;
+              margin-right: 50px;
+            }
+          </code>
+        </pre>
+        <div id="next">
+          <a href="i.html">Next</a>
+        </div>
+      </body>
+</html>

@@ -2,13 +2,46 @@
 <html land="en" dir="ltr">
   <head>
     <title>Type Collection Exercise 4</title>
-    <link href="type-collection.css"
+    <link href="uppercase-r.css"
     rel="stylesheet">
   </head>
       <body>
         <div class="uppercase-r">
-          <div id="lower-r">
+          <div id="upper-r">
+            <div id="lower-r">
+              <div id="middle-r">
+              </div>
+            </div>
           </div>
         </div>
+        <div id="next">
+          <a href="o.html">Next</a>
+        </div>
+        <pre>
+          <code>
+            .uppercase-r {
+              width:400px;
+              height:500px;
+              border: 1px solid black;
+              float: left;
+            }
+
+            #lower-r {
+              width: 0;
+              height: 0;
+              border-bottom: 350px solid grey;
+              border-right: 350px solid transparent;
+              float: left;
+              margin-top: 150px;
+            }
+
+            #upper-r {
+                  width: 300px;
+                  height: 300px;
+                  background: radial-gradient(circle at 100px 100px, white, #000);
+                  border-radius: 50%;
+            }
+          </code>
+        </pre>
       </body>
 </html>
