@@ -1,0 +1,256 @@
+.uppercase-r1 {
+  width:400px;
+  height:500px;
+  float: left;
+}
+
+#lower-r1 {
+  width: 0;
+  height: 0;
+  border-bottom: 350px solid grey;
+  border-right: 350px solid transparent;
+  float: left;
+  margin-top: 150px;
+}
+
+#upper-r1 {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle at 100px 100px, white, #000);
+  border-radius: 50%;
+}
+
+.uppercase-o {
+  width:400px;
+  height:500px;
+  float: left;
+}
+
+#upper-o {
+  width: 390px;
+  height: 390px;
+  background: radial-gradient(circle at 100px 100px, black, #000);
+  border-radius: 50%;
+  margin: 0;
+  position: absolute;
+  z-index: 1;
+
+}
+
+#upper-o::before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+  filter: blur(5px);
+  z-index: 3;
+}
+
+#middle-o {
+  width: 250px;
+  height: 250px;
+  background: transparent;
+  border-radius: 50%;
+  margin: 0;
+  margin-top: 75px;
+  margin-left: 70px;
+  position: absolute;
+  z-index: 2;
+
+}
+
+#middle-o::before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 0px, blue, white 58%);
+  z-index: 2;
+}
+
+#next {
+  float: right;
+  font-size: 40px;
+  margin-top: 200px;
+  text-decoration: none;
+  color: purple;
+  margin-right: 50px;
+}
+
+.uppercase-i {
+  width:400px;
+  height:500px;
+  float: left;
+}
+
+#upper-i {
+  width: 400px;
+   height: 100px;
+   background: linear-gradient(180deg, goldenrod, red);
+   position: absolute;
+}
+
+#lower-i {
+  width: 400px;
+   height: 100px;
+   background: linear-gradient(180deg, green, goldenrod);
+   margin-top: 400px;
+   position: absolute;
+}
+
+#middle-i {
+  width: 150px;
+  height: 500px;
+  background: linear-gradient(45deg, green, red);
+  margin-left: 125px;
+  position: absolute;
+}
+#next {
+  float: right;
+  font-size: 40px;
+  text-decoration: none;
+  color: purple;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+
+.x {
+  width:400px;
+  height:500px;
+  float: left;
+}
+
+#x-comp {
+  margin-left: 25px;
+}
+
+#x1 {
+  margin-top: 50px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(5deg, #993333, black);
+}
+
+#x2 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(10deg, #cc0000, black);
+  margin-left: 50px;
+  position: absolute;
+}
+
+#x3 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(15deg, #ff5050, black);
+  margin-left: 100px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+#x4 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(20deg, #ff6666, black);
+  margin-left: 150px;
+  margin-top: 100px;
+  position: absolute;
+}
+
+#x5 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(25deg, #ff9999, black);
+  margin-left: 100px;
+  margin-top: 150px;
+  position: absolute;
+}
+
+#x6 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(30deg, #ffcccc, black);
+  margin-left: 50px;
+  margin-top: 200px;
+  position: absolute;
+}
+
+#x7 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(35deg, white, black);
+  margin-left: 0px;
+  margin-top: 250px;
+  position: absolute;
+}
+
+#x8 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(40deg, #ccffff, black);
+  margin-left: 200px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+#x9 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(45deg, #66ffff, black);
+  margin-left: 250px;
+  margin-top: 0px;
+  position: absolute;
+}
+
+#x10 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(50deg, #00ffff, black);
+  margin-left: 300px;
+  margin-top: -50px;
+  position: absolute;
+}
+
+#x11 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(55deg, #33cccc, black);
+  margin-left: 300px;
+  margin-top: 250px;
+  position: absolute;
+}
+
+#x12 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(60deg, #006699, black);
+  margin-left: 250px;
+  margin-top: 200px;
+  position: absolute;
+}
+
+#x13 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(65deg, #003366, black);
+  margin-left: 200px;
+  margin-top: 150px;
+  position: absolute;
+}
+
+#next {
+  float: right;
+  font-size: 40px;
+  text-decoration: none;
+  color: purple;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
