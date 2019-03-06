@@ -1,0 +1,24 @@
+.uppercase-r {
+  width:40vw;
+  height:50vw;
+  float: left;
+  position: relative;
+}
+
+#lower-r {
+  width: 0;
+  height: 0;
+  border-bottom: 50vw solid grey;
+  border-right: 50vh solid transparent;
+  float: left;
+  margin-top: 20vh;
+  position: absolute;
+}
+
+#upper-r {
+  width: 45vw;
+  height: 45vh;
+  background: radial-gradient(circle at 100px 100px, white, #000);
+  border-radius: 50%;
+  position: absolute;
+}

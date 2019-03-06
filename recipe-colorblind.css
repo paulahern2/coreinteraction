@@ -54,3 +54,13 @@ html,body {
   display: block;
 
 }
+
+#home-links {
+font-size: 36px;
+text-decoration: none;
+font-family: 'Cairo', sans-serif;
+color: #f81032;
+margin-left: 400px;
+margin-right: auto;
+display: block;
+}

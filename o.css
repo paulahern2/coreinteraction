@@ -50,7 +50,7 @@
   width: 90%;
   height: 90%;
   border-radius: 50%;
-  background: radial-gradient(circle at 50% 0px, blue, white 58%);
+  background: radial-gradient(circle at 50% 0px, blue, #FFFFE0 58%);
   z-index: 2;
 }
 
