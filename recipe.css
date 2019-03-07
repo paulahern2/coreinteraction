@@ -3,12 +3,13 @@
   decoration: none;
   color: black;
   padding-right: 0;
-  margin-left: 400px;
+  margin-left: 100px;
   margin-right: auto;
   display: block;
   width: 800px;
   font-family: 'Cairo', sans-serif;
-  font-size: 60px;
+  font-size: 40px;
+  margin-top: 100px;
 
 
 }
@@ -63,4 +64,11 @@ color: black;
 margin-left: 400px;
 margin-right: auto;
 display: block;
+}
+
+.photo img {
+  width: 50vw;
+  float: right;
+  margin-top: 100px;
+  margin-right: 50px;
 }
