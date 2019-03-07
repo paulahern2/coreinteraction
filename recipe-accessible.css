@@ -1,7 +1,7 @@
 #recipe {
   padding-left: 0;
   decoration: none;
-  color: black;
+  color: #0000B3;
   padding-right: 0;
   margin-left: 400px;
   margin-right: auto;
@@ -14,19 +14,19 @@
 }
 
 h2 {
-  color: black;
+  color: #0000B3;
 }
 
 p {
   width: 900px;
-  color: black;
+  color: #0000B3;
 }
 
 #mahjoun a {
   font-size: 150px;
   text-decoration: none;
   font-family: 'Cairo', sans-serif;
-  color: black;
+  color: #0000B3;
   margin-left: 2px;
   margin-right: auto;
   display: block;
@@ -41,25 +41,41 @@ html,body {
   margin: 0;
   max-width: 100%;
   overflow-x: hidden;
-  background-color: white;
+  background-color: #FFDE5C;
 }
 
 #next a {
-  font-size: 36px;
-  text-decoration: none;
+  font-size: 40px;
   font-family: 'Cairo', sans-serif;
-  color: black;
-  margin-left: 400px;
+  color: #0000B3;
+  margin-left: 1300px;
   margin-right: auto;
   display: block;
+}
 
+#next1 a {
+  font-size: 40px;
+  font-family: 'Cairo', sans-serif;
+  color: #0000B3;
+  margin-left: 1200px;
+  margin-right: auto;
+  display: block;
+}
+
+#back a {
+  font-size: 40px;
+  font-family: 'Cairo', sans-serif;
+  color: #0000B3;
+  margin-left: 100px;
+  margin-right: auto;
+  display: block;
 }
 
 #home-links {
-font-size: 36px;
+font-size: 32px;
 text-decoration: none;
 font-family: 'Cairo', sans-serif;
-color: black;
+color: #0000B3;
 margin-left: 400px;
 margin-right: auto;
 display: block;
