@@ -3,7 +3,7 @@
   decoration: none;
   color: black;
   padding-right: 0;
-  margin-left: 100px;
+  margin-left: 400px;
   margin-right: auto;
   display: block;
   width: 800px;
@@ -71,4 +71,11 @@ display: block;
   float: right;
   margin-top: 100px;
   margin-right: 50px;
+  width: auto ;
+  max-width: 50% ;
+  height: auto ;
 }
+
+@media only screen and (max-device-width: 480px) {
+
+    }
