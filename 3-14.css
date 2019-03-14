@@ -1,0 +1,80 @@
+.week {
+  display: flex;
+}
+
+.days-of-week {
+    display: flex;
+}
+
+.days-of-week {
+  height: 40px;
+}
+
+.day {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.nameday {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+h1 {
+  margin-left: 42.85714%;
+  color: #0000B3;
+}
+
+.week:first-of-type .day:first-of-type {
+  margin-left: 71.42714%;
+}
+
+.week:last-of-type .day:last-of-type {
+  margin-right: 85.71214%;
+}
+
+html, body {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+body {
+  background: #FFDE5C;
+  background-attachment: fixed;
+  font-size: 1em;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.month {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.week {
+  height: 90px;
+}
+
+.day {
+  color: #0000B3;
+  padding: 5px;
+  background-color: transparentize(white, 0.30);
+  box-shadow:
+    -2px -2px #0000B3,
+    inset -2px -2px 0 0 #0000B3;
+}
+
+.nameday {
+  color: #0000B3;
+  padding: 5px;
+  background-color: transparentize(white, 0.30);
+  box-shadow:
+    -2px -2px #0000B3,
+    inset -2px -2px 0 0 #0000B3;
+}
+
+.daynames {
+  max-width: 800px;
+  margin: 20px auto;
+}
