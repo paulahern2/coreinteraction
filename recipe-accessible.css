@@ -4,7 +4,7 @@
   color: #0000B3;
   padding-right: 0;
   margin-left: 20%;
-  margin-right: auto;
+  margin-right: 20%;
   max-width: 800px;
   font-family: 'Cairo', sans-serif;
   font-size: 1em;
@@ -23,7 +23,7 @@ h2 {
   color: #0000B3;
   padding-right: 0;
   margin-left: 20%;
-  margin-right: auto;
+  margin-right: 20%;
   max-width: 800px;
   font-family: 'Cairo', sans-serif;
   display: flex;
@@ -40,7 +40,7 @@ h3 {
   color: #0000B3;
   padding-right: 0;
   margin-left: 20%;
-  margin-right: auto;
+  margin-right: 20%;
   max-width: 800px;
   font-family: 'Cairo', sans-serif;
   display: flex;
@@ -80,18 +80,20 @@ html,body {
   font-size: 1em;
   font-family: 'Cairo', sans-serif;
   color: #0000B3;
-  margin-left: 90%;
-  margin-right: auto;
-  display: flex;
+  margin-left: 80%;
+  margin-right: 30%;
+  display: relative;
+  position: fixed;
 }
 
 #next1 a {
   font-size: 1em;
   font-family: 'Cairo', sans-serif;
   color: #0000B3;
-  margin-left: 90%;
-  margin-right: auto;
-  display: flex;
+  margin-left: 80%;
+  margin-right: 30%;
+  display: relative;
+  position: fixed;
 }
 
 #back a {
@@ -116,7 +118,6 @@ display: flex;
 @media only screen and (max-width: 1080px) {
   #recipe a {
     font-size: 3em;
-    margin-left: 10%;
   }
   #next a {
     font-size: 3em;
