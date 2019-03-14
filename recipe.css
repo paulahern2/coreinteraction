@@ -6,12 +6,19 @@
   margin-left: 400px;
   margin-right: auto;
   display: block;
-  width: 800px;
   font-family: 'Cairo', sans-serif;
-  font-size: 40px;
-  margin-top: 100px;
+  font-size: 2em;
+  margin-top: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+}
 
-
+.whole {
+  display: flex;
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-right: 50px;
+    display: flex
 }
 
 h2 {
@@ -46,7 +53,7 @@ html,body {
 }
 
 #next a {
-  font-size: 36px;
+  font-size: 2em;
   text-decoration: none;
   font-family: 'Cairo', sans-serif;
   color: black;
@@ -57,18 +64,18 @@ html,body {
 }
 
 #home-links {
-font-size: 36px;
+font-size: 2em;
 text-decoration: none;
 font-family: 'Cairo', sans-serif;
 color: black;
 margin-left: 400px;
 margin-right: auto;
-display: block;
 }
 
 .photo img {
   width: 50vw;
-  float: right;
-  margin-top: 100px;
+  margin-right: 20%;
+  margin-top: 10px;
   margin-right: 50px;
+  display: flex
 }
