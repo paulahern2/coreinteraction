@@ -112,3 +112,24 @@ margin-left: 400px;
 margin-right: auto;
 display: flex;
 }
+
+@media only screen and (max-width: 800px) {
+  #recipe p {
+    font-size: 3em;
+  }
+  #next a {
+    font-size: 3em;
+  }
+  #next1 a {
+    font-size: 3em;
+  }
+  #back a {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 4em;
+  }
+  h3 {
+    font-size: 4em;
+  }
+}
