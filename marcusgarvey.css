@@ -1,0 +1,24 @@
+html {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+  margin-top: 40px;
+}
+
+body {
+    background-image: url('garvey.jpg');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+.button {
+  margin-top: 200px;
+  margin-left: 200px;
+  text-decoration: none;
+  font-size: 24px;
+  color: red;
+}

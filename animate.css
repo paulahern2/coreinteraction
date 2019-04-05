@@ -1,0 +1,124 @@
+html {
+  animation-name: anim1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  filter: blur(3px);
+-webkit-filter: blur(3px);
+}
+
+@keyframes anim1 {
+  0% {background-color: #fef999;}
+  16.6% {background-color: #fef87f;}
+    33.33332% {background-color:#fef766;}
+      49.99998% {background-color: #fef54c;}
+        66.66664% {background-color:#fef432;}
+          83.3333% {background-color: #fef319;}
+            100% {background-color: #fef200;}
+}
+
+#div1 {
+  width: 33.33332%;
+  height: 200px;
+  animation-name: anim2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: 4s;
+  float: left;
+  display: block;
+  filter: blur(8px);
+-webkit-filter: blur(8px);
+
+}
+
+#div1:hover {
+  height: 300px;
+
+}
+
+@keyframes anim2 {
+  0% {background-color: #262163;}
+  16.6% {background-color: #3b3772;}
+    33.33332% {background-color:#514d82;}
+      49.99998% {background-color: #676391;}
+        66.66664% {background-color:#7c79a1;}
+          83.3333% {background-color: #9290b1;}
+            100% {background-color: #a8a6c0;}
+            from {
+              height: 200px;
+            }
+            to {
+              height: 700px;
+            }
+}
+
+
+#div2 {
+  width: 33.33332%;
+  height: 150px;
+  animation-name: anim3;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: 6s;
+  margin-right: auto;
+  float: left;
+  display: block;
+  filter: blur(8px);
+-webkit-filter: blur(8px);
+}
+
+#div2:hover {
+  height: 450px;
+
+}
+
+@keyframes anim3 {
+  0% {background-color: #fef999;}
+  16.6% {background-color: #fef87f;}
+    33.33332% {background-color:#fef766;}
+      49.99998% {background-color: #fef54c;}
+        66.66664% {background-color:#fef432;}
+          83.3333% {background-color: #fef319;}
+            100% {background-color: #fef200;}
+}
+
+
+
+#div3 {
+  width: 33.33332%;
+  height: 250px;
+  animation-name: anim4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: 2s;
+  float: right;
+  display: block;
+  margin-right: auto;
+}
+
+#div3:hover {
+  height: 400px;
+
+}
+
+@keyframes anim4 {
+  0% {background-color: #ed1b24;}
+  16.6% {background-color: #ee3139;}
+    33.33332% {background-color:#f0484f;}
+      49.99998% {background-color: #f25f65;}
+        66.66664% {background-color: #f4767b;}
+          83.3333% {background-color: #f68d91;}
+            100% {background-color: #f7a3a7;}
+}
