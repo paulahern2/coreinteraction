@@ -1,0 +1,25 @@
+html {
+  background-color: #fd5e53;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 5vw;
+  color: #011C3C;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-size: 2vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+p:hover {
+  color: yellow;
+}
