@@ -23,3 +23,11 @@ p {
 p:hover {
   color: yellow;
 }
+
+.image {
+  max-width: 100%;
+  height: 110vh;
+  background-size: cover;
+  padding: 0px;
+  background-image: url(weatherpic.jpg);
+}
