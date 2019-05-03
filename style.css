@@ -1,11 +1,20 @@
 html {
-  background-color: #fd5e53;
+  background-color: white;
 }
 
 h1 {
   font-family: 'Comfortaa', cursive;
   font-weight: 700;
-  font-size: 5vw;
+  font-size: 2vw;
+  color: #011C3C;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 1vw;
   color: #011C3C;
   display: flex;
   justify-content: center;
@@ -14,20 +23,92 @@ h1 {
 p {
   font-family: Montserrat, sans-serif;
   font-weight: 300;
-  font-size: 2vw;
-  color: white;
+  font-size: 1vw;
+  color: black;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  margin-left: 15px;
 }
 
 p:hover {
   color: yellow;
 }
 
-.image {
-  max-width: 100%;
-  height: 110vh;
-  background-size: cover;
-  padding: 0px;
-  background-image: url(weatherpic.jpg);
+.tokyo-card {
+  background-color: red;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  position: fixed;
 }
+/*
+.tokyo-inner {
+  position: relative;
+  width: 100%;
+ height: 100%;
+ text-align: center;
+ transition: transform 0.8s;
+ transform-style: preserve-3d;
+}
+
+.tokyo-card:hover .tokyo-inner {
+  transform: rotateY(180deg);
+}
+
+.tokyo-front, .tokyo-back {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  backface-visibility: hidden;
+}
+
+.tokyo-front {
+  background-color: yellow;
+  color: black;
+}
+
+.tokyo-back {
+  background-color: goldenrod;
+  color: white;
+  transform: rotateY(180deg);
+
+*/
+.delhi-card {
+    background-color: red;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+}
+/*
+.delhi-inner {
+    position: relative;
+    width: 100%;
+   height: 100%;
+   text-align: center;
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+  }
+
+.delhi-card:hover .delhi-inner {
+    transform: rotateY(180deg);
+  }
+
+.delhi-front, .delhi-back {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    backface-visibility: hidden;
+  }
+
+.delhi-front {
+    background-color: yellow;
+    color: black;
+  }
+
+.delhi-back {
+    background-color: goldenrod;
+    color: white;
+    transform: rotateY(180deg);
+*/
