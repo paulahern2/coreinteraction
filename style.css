@@ -6,6 +6,9 @@ body {
   display: grid;
   grid-template-rows: 30vw 30vw 30vw;
   grid-template-columns: 25vw 25vw 25vw 25vw;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
 }
 
 h1 {
@@ -42,8 +45,7 @@ p:hover {
 
 .card {
   background-color: red;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px;
+  perspective: 3500px;
 }
 
 .card-inner {
