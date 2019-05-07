@@ -33,7 +33,7 @@ p {
 p:hover {
   color: yellow;
 }
-
+/*
 .tokyo-card {
   background-color: red;
   width: 300px;
@@ -42,7 +42,7 @@ p:hover {
   perspective: 1000px;
   position: fixed;
 }
-/*
+
 .tokyo-inner {
   position: relative;
   width: 100%;
@@ -81,7 +81,7 @@ p:hover {
     border: 1px solid #f1f1f1;
     perspective: 1000px;
 }
-/*
+
 .delhi-inner {
     position: relative;
     width: 100%;
