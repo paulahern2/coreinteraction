@@ -40,18 +40,13 @@ p:hover {
   color: yellow;
 }
 
-.tokyo-card {
+.card {
   background-color: red;
-  height: 100%;
-  width: 100%;
-  grid-row: 0;
-  grid-column: 0;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
-  position: fixed;
 }
 
-.tokyo-inner {
+.card-inner {
   position: relative;
   width: 100%;
  height: 100%;
@@ -60,64 +55,24 @@ p:hover {
  transform-style: preserve-3d;
 }
 
-.tokyo-card:hover .tokyo-inner {
+.card:hover .card-inner {
   transform: rotateY(180deg);
 }
 
-.tokyo-front, .tokyo-back {
+.card-front, .card-back {
   position: absolute;
   width: 100%;
   min-height: 100%;
   backface-visibility: hidden;
 }
 
-.tokyo-front {
+.card-front {
   background-color: yellow;
   color: black;
 }
 
-.tokyo-back {
+.card-back {
   background-color: goldenrod;
   color: white;
   transform: rotateY(180deg);
-
-.delhi-card {
-    background-color: red;
-    height: 100%;
-    width: 100%;
-    grid-column: 1;
-    grid-row: 0;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px;
 }
-
-.delhi-inner {
-    position: relative;
-    width: 100%;
-   height: 100%;
-   text-align: center;
-   transition: transform 0.8s;
-   transform-style: preserve-3d;
-  }
-
-.delhi-card:hover .delhi-inner {
-    transform: rotateY(180deg);
-  }
-
-.delhi-front, .delhi-back {
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
-    backface-visibility: hidden;
-  }
-
-.delhi-front {
-    background-color: yellow;
-    color: black;
-  }
-
-.delhi-back {
-    background-color: goldenrod;
-    color: white;
-    transform: rotateY(180deg);
-*/
