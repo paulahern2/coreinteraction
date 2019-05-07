@@ -2,6 +2,12 @@ html {
   background-color: white;
 }
 
+body {
+  display: grid;
+  grid-template-rows: 30vw 30vw 30vw;
+  grid-template-columns: 25vw 25vw 25vw 25vw;
+}
+
 h1 {
   font-family: 'Comfortaa', cursive;
   font-weight: 700;
@@ -33,11 +39,13 @@ p {
 p:hover {
   color: yellow;
 }
-/*
+
 .tokyo-card {
   background-color: red;
-  width: 300px;
-  height: 200px;
+  height: 100%;
+  width: 100%;
+  grid-row: 0;
+  grid-column: 0;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
   position: fixed;
@@ -73,11 +81,12 @@ p:hover {
   color: white;
   transform: rotateY(180deg);
 
-*/
 .delhi-card {
     background-color: red;
-    width: 300px;
-    height: 200px;
+    height: 100%;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 0;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
 }
