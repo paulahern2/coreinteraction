@@ -45,7 +45,6 @@ p:hover {
 }
 
 .card {
-  background-color: red;
   perspective: 3000px;
 }
 
@@ -70,12 +69,53 @@ p:hover {
 }
 
 .card-front {
-  background-color: yellow;
-  color: black;
+  width: 100wh;
+height: 90vh;
+color: #fff;
+background: linear-gradient(-40deg, #E8320C, #FFAF00, #FF5500, #FF0701);
+background-size: 200% 200%;
+-webkit-animation: Gradient 5s ease infinite;
+-moz-animation: Gradient 5s ease infinite;
+animation: Gradient 5s ease infinite;
 }
 
+@-webkit-keyframes Gradient {
+0% {
+  background-position: 0% 50%
+}
+50% {
+  background-position: 100% 50%
+}
+100% {
+  background-position: 0% 50%
+}
+}
+
+@-moz-keyframes Gradient {
+0% {
+  background-position: 0% 50%
+}
+50% {
+  background-position: 100% 50%
+}
+100% {
+  background-position: 0% 50%
+}
+}
+
+@keyframes Gradient {
+0% {
+  background-position: 0% 50%
+}
+50% {
+  background-position: 100% 50%
+}
+100% {
+  background-position: 0% 50%
+}
+}
 .card-back {
-  background-color: goldenrod;
+  background-color: #FFF9E3;
   color: white;
   transform: rotateY(180deg);
 }
