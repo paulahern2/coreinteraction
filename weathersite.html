@@ -19,7 +19,8 @@
 </head>
 <body>
 
-<div class="card" id="tokyo">
+<div onmouseover="PlaySound('mySound1')"
+    onmouseout="StopSound('mySound1')" class="card" id="tokyo">
   <div class="card-inner">
     <div class="card-front" id="tokyo-front">
         <h1 class="tokyo">Tōkyō</h1>
@@ -36,11 +37,14 @@
           <p class="tokyo-eight"></p>
           <p class="tokyo-nine"></p>
           <p class="tokyo-ten"></p>
+          <audio id='mySound1' src='tokyo.mp3'/>
           </div>
         </div>
       </div>
 
-<div class="card" id="delhi">
+
+<div onmouseover="PlaySound('mySound5')"
+    onmouseout="StopSound('mySound5')" class="card" id="delhi">
   <div class="card-inner">
     <div class="card-front">
         <h1 class="delhi">New Delhi</h1>
@@ -58,11 +62,13 @@
         <p class="delhi-eight"></p>
         <p class="delhi-nine"></p>
         <p class="delhi-ten"></p>
+        <audio id='mySound5' src='delhi.mp3'/>
       </div>
     </div>
   </div>
 
-  <div class="card" id="shanghai">
+  <div onmouseover="PlaySound('mySound4')"
+      onmouseout="StopSound('mySound4')" class="card" id="shanghai">
     <div class="card-inner">
       <div class="card-front">
         <h1 class="shanghai">Shanghai Shi</h1>
@@ -80,11 +86,13 @@
               <p class="shanghai-eight"></p>
               <p class="shanghai-nine"></p>
               <p class="shanghai-ten"></p>
+              <audio id='mySound4' src='chengdu.mp3'/>
             </div>
           </div>
         </div>
 
-        <div class="card" id="seoul">
+        <div onmouseover="PlaySound('mySound2')"
+            onmouseout="StopSound('mySound2')" class="card" id="seoul">
           <div class="card-inner">
             <div class="card-front">
                     <h1 class="seoul">Seoul-teukbyeolsi</h1>
@@ -102,11 +110,13 @@
                           <p class="seoul-eight"></p>
                           <p class="seoul-nine"></p>
                           <p class="seoul-ten"></p>
+                          <audio id='mySound2' src='seoul.mp3'/>
                         </div>
                       </div>
                     </div>
 
-                    <div class="card" id="manila">
+                    <div onmouseover="PlaySound('mySound7')"
+                        onmouseout="StopSound('mySound7')" class="card" id="manila">
                       <div class="card-inner">
                         <div class="card-front">
                           <h1 class="manila">City of Manila</h1>
@@ -124,11 +134,13 @@
                                 <p class="manila-eight"></p>
                                 <p class="manila-nine"></p>
                                 <p class="manila-ten"></p>
+                                <audio id='mySound7' src='manila.mp3'/>
                               </div>
                             </div>
                           </div>
 
-                          <div class="card" id="newyork">
+                          <div onmouseover="PlaySound('mySound6')"
+                              onmouseout="StopSound('mySound6')" class="card" id="newyork">
                             <div class="card-inner">
                               <div class="card-front">
                                 <h1 class="newyork">City of New York</h1>
@@ -146,11 +158,13 @@
                                       <p class="newyork-eight"></p>
                                       <p class="newyork-nine"></p>
                                       <p class="newyork-ten"></p>
+                                      <audio id='mySound6' src='newyork.mp3'/>
                                     </div>
                                   </div>
                                 </div>
 
-                                <div class="card" id="mexicocity">
+                                <div onmouseover="PlaySound('mySound8')"
+                                    onmouseout="StopSound('mySound8')" class="card" id="mexicocity">
                                   <div class="card-inner">
                                     <div class="card-front">
                                       <h1 class="mexicocity">Mexico City</h1>
@@ -168,11 +182,13 @@
                                             <p class="mexicocity-eight"></p>
                                             <p class="mexicocity-nine"></p>
                                             <p class="mexicocity-ten"></p>
+                                            <audio id='mySound8' src='mexicocity.mp3'/>
                                           </div>
                                         </div>
                                       </div>
 
-                                      <div class="card" id="saopaolo">
+                                      <div onmouseover="PlaySound('mySound9')"
+                                          onmouseout="StopSound('mySound9')" class="card" id="saopaolo">
                                         <div class="card-inner">
                                           <div class="card-front">
                                             <h1 class="saopaolo">São Paulo</h1>
@@ -190,11 +206,13 @@
                                                   <p class="saopaolo-eight"></p>
                                                   <p class="saopaolo-nine"></p>
                                                   <p class="saopaolo-ten"></p>
+                                                  <audio id='mySound9' src='saopaulo.mp3'/>
                                                 </div>
                                               </div>
                                             </div>
 
-                                            <div class="card" id="eko">
+                                            <div onmouseover="PlaySound('mySound3')"
+                                                onmouseout="StopSound('mySound3')" class="card" id="eko">
                                               <div class="card-inner">
                                                 <div class="card-front">
                                                   <h1 class="eko">Ìlú Èkó (Lagos)</h1>
@@ -212,6 +230,7 @@
                                                         <p class="eko-eight"></p>
                                                         <p class="eko-nine"></p>
                                                         <p class="eko-ten"></p>
+                                                        <audio id='mySound3' src='eko.mp3'/>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -281,6 +300,8 @@
                                                                         </div>
                                                                       </div>
                                                                     </div>
+
+
 
 
 

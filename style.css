@@ -3,6 +3,8 @@ html {
   overflow: hidden;
 }
 
+
+
 body {
   display: grid;
   grid-template-rows: 33.333vh 33.333vh 33.333vh;
@@ -65,19 +67,144 @@ p:hover {
   position: absolute;
   width: 100%;
   min-height: 100%;
+  max-height: 100%
   backface-visibility: hidden;
 }
 
-.card-front {
+#tokyo .card-front {
   width: 100wh;
 height: 90vh;
 color: #fff;
-background: linear-gradient(-40deg, #E8320C, #FFAF00, #FF5500, #FF0701);
-background-size: 200% 200%;
--webkit-animation: Gradient 5s ease infinite;
--moz-animation: Gradient 5s ease infinite;
-animation: Gradient 5s ease infinite;
+background: linear-gradient(-45deg, #FFDC00, #FFF800, #FF8000, #E8A50C);
+background-size: 500% 500%;
+-webkit-animation: Gradient 10s ease infinite;
+-moz-animation: Gradient 10s ease infinite;
+animation: Gradient 10s ease infinite;
 }
+
+#delhi .card-front {
+  width: 100wh;
+height: 90vh;
+color: #fff;
+background: linear-gradient(-10deg, #EB0C45, #FA0135, #FF6F00, #FF3900);
+background-size: 500% 500%;
+-webkit-animation: Gradient 10s ease infinite;
+-moz-animation: Gradient 10s ease infinite;
+animation: Gradient 10s ease infinite;
+}
+
+#shanghai .card-front {
+  width: 100wh;
+height: 90vh;
+color: #fff;
+background: linear-gradient(10deg, #FFDC00, #FF8A00, #FF8000, #FA5E07);
+background-size: 500% 500%;
+-webkit-animation: Gradient 10s ease infinite;
+-moz-animation: Gradient 10s ease infinite;
+animation: Gradient 10s ease infinite;
+}
+
+#seoul .card-front {
+  width: 100wh;
+height: 90vh;
+color: #fff;
+background: linear-gradient(45deg, #FFDC00, #FFF800, #FF8000, #E8A50C);
+background-size: 500% 500%;
+-webkit-animation: Gradient 10s ease infinite;
+-moz-animation: Gradient 10s ease infinite;
+animation: Gradient 10s ease infinite;
+}
+
+#manila .card-front {
+  width: 100wh;
+height: 90vh;
+color: #fff;
+background: linear-gradient(-70deg, #FF9D05, #FA2A05, #FF5500, #FF0701);
+background-size: 500% 500%;
+-webkit-animation: Gradient 10s ease infinite;
+-moz-animation: Gradient 10s ease infinite;
+animation: Gradient 10s ease infinite;
+}
+
+#newyork .card-front {
+  width: 100wh;
+height: 90vh;
+color: #fff;
+background: linear-gradient(-99deg, #FFDC00, #FFF800, #FF8000, #E8A50C);
+background-size: 300% 300%;
+-webkit-animation: Gradient 15s ease infinite;
+-moz-animation: Gradient 15s ease infinite;
+animation: Gradient 15s ease infinite;
+}
+
+#mexicocity .card-front {
+  width: 100wh;
+height: 90vh;
+color: #fff;
+background: linear-gradient(111deg, #FFDC00, #FFF800, #FF8000, #E8A50C);
+background-size: 500% 500%;
+-webkit-animation: Gradient 13s ease infinite;
+-moz-animation: Gradient 13s ease infinite;
+animation: Gradient 13s ease infinite;
+}
+
+#saopaolo .card-front {
+  width: 100wh;
+height: 90vh;
+color: #fff;
+background: linear-gradient(70deg, #E8320C, #FFBF00, #FF8A00, #FF0701);
+background-size: 500% 500%;
+-webkit-animation: Gradient 10s ease infinite;
+-moz-animation: Gradient 10s ease infinite;
+animation: Gradient 10s ease infinite;
+}
+
+#eko .card-front {
+  width: 100wh;
+height: 90vh;
+color: #fff;
+background: linear-gradient(-135deg, #FF9D05, #FA2A05, #FF5500, #FF0701);
+background-size: 500% 500%;
+-webkit-animation: Gradient 4.10s ease infinite;
+-moz-animation: Gradient 4.10s ease infinite;
+animation: Gradient 4.10s ease infinite;
+}
+
+#cairo .card-front {
+  width: 100wh;
+height: 90vh;
+color: #fff;
+background: linear-gradient(-170deg, #FFDC00, #FA3D00, #FF8000, #FA5E07);
+background-size: 500% 500%;
+-webkit-animation: Gradient 4s ease infinite;
+-moz-animation: Gradient 4s ease infinite;
+animation: Gradient 4s ease infinite;
+}
+
+
+#dhaka .card-front {
+  width: 100wh;
+height: 90vh;
+color: #fff;
+background: linear-gradient(170deg, #FF9D05, #FA2A05, #FF5500, #FF0701);
+background-size: 500% 500%;
+-webkit-animation: Gradient 10s ease infinite;
+-moz-animation: Gradient 10s ease infinite;
+animation: Gradient 10s ease infinite;
+}
+
+
+#moscow .card-front {
+  width: 100wh;
+height: 90vh;
+color: #fff;
+background: linear-gradient(135deg, #FFDC00, #FA3D00, #FF8000, #FA5E07);
+background-size: 500% 500%;
+-webkit-animation: Gradient 11s ease infinite;
+-moz-animation: Gradient 11s ease infinite;
+animation: Gradient 11s ease infinite;
+}
+
 
 @-webkit-keyframes Gradient {
 0% {
